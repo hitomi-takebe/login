@@ -6,8 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    .link {
+    max-width: 400px;
+    }
+    </style>
 </head>
 <body>
-    <p>ログイン成功です！</p>
+    <p class="card__title">ログイン成功です！</p>
+    <p class="link"><a href="index.php">戻る</a></p>
 </body>
 </html>

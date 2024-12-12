@@ -58,6 +58,7 @@ $message = "登録が完了しました！";
             <p class="password">パスワード:<?= $pass ?></P>
             <p><a href="index.php">戻る</a></p>
         </div>
+        <p class="link"><a href="login.php">ログイン画面</a></p>
     </div>
 
 </body>

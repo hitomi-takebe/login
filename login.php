@@ -20,15 +20,16 @@
         <div class="card__form">
             <form action="login.php" method="post">
                 <label for="email">メールアドレス:</label>
-                <input type="email" id="email" class="email" name="email" required>
+                <input type="email" id="email" class="email" name="email" placeholder="Your Email" required>
                 <label for="password">パスワード:</label>
-                <input type="password" id="password" class="password" name="password" required>
+                <input type="password" id="password" class="password" name="password" placeholder="Your Password" required>
                 <input type="submit" id="submit" class="submit" value="ログイン">
             </form>
             <?php if (!empty($errorMessage)): ?>
                 <p class="error"><?= htmlspecialchars($errorMessage, ENT_QUOTES, 'UTF-8') ?></p>
             <?php endif; ?>
         </div>
+        <p class="link"><a href="index.php">新規登録はこちら</a></p>
     </div>
 </body>
 </html>

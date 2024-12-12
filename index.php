@@ -23,6 +23,7 @@
             <input type="password" id="password" class="password" name="password" placeholder="Your Password"><br>
             <input type="submit" id="submit" class="submit" value="登録">
             </form>
+        <p class="link"><a href="login.php">既に登録している方はこちら</a></p>
         </div>
     </div>
 </body>
